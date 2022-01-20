@@ -11,7 +11,7 @@ import SwiftUI
 struct glareApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LightSwitchView()
         }
     }
 }

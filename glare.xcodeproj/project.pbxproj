@@ -16,6 +16,8 @@
 		675C563A2798206D00ACAE19 /* Blur Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675C56392798206D00ACAE19 /* Blur Component.swift */; };
 		675C563C2798208E00ACAE19 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675C563B2798208E00ACAE19 /* MotionManager.swift */; };
 		675C563E279820AA00ACAE19 /* ParallexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675C563D279820AA00ACAE19 /* ParallexManager.swift */; };
+		675C56402798304200ACAE19 /* LightSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675C563F2798304200ACAE19 /* LightSwitchView.swift */; };
+		675C56432798359000ACAE19 /* TorchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675C56422798359000ACAE19 /* TorchService.swift */; };
 		679079A9279817440027AB01 /* glareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679079A8279817440027AB01 /* glareApp.swift */; };
 		679079AB279817440027AB01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679079AA279817440027AB01 /* ContentView.swift */; };
 		679079AD279817450027AB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679079AC279817450027AB01 /* Assets.xcassets */; };
@@ -51,6 +53,8 @@
 		675C56392798206D00ACAE19 /* Blur Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Blur Component.swift"; sourceTree = "<group>"; };
 		675C563B2798208E00ACAE19 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		675C563D279820AA00ACAE19 /* ParallexManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallexManager.swift; sourceTree = "<group>"; };
+		675C563F2798304200ACAE19 /* LightSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchView.swift; sourceTree = "<group>"; };
+		675C56422798359000ACAE19 /* TorchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchService.swift; sourceTree = "<group>"; };
 		679079A5279817440027AB01 /* glare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		679079A8279817440027AB01 /* glareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glareApp.swift; sourceTree = "<group>"; };
 		679079AA279817440027AB01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 		675C562B27981FA100ACAE19 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				675C563F2798304200ACAE19 /* LightSwitchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,9 +139,18 @@
 		675C56362798203100ACAE19 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				675C56412798357C00ACAE19 /* Services */,
 				675C56372798204900ACAE19 /* LottieEnum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		675C56412798357C00ACAE19 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				675C56422798359000ACAE19 /* TorchService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		6790799C279817440027AB01 = {
@@ -345,7 +359,9 @@
 				675C563A2798206D00ACAE19 /* Blur Component.swift in Sources */,
 				675C56382798204900ACAE19 /* LottieEnum.swift in Sources */,
 				679079A9279817440027AB01 /* glareApp.swift in Sources */,
+				675C56402798304200ACAE19 /* LightSwitchView.swift in Sources */,
 				675C563E279820AA00ACAE19 /* ParallexManager.swift in Sources */,
+				675C56432798359000ACAE19 /* TorchService.swift in Sources */,
 				675C562D27981FB100ACAE19 /* LottieWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import Lottie
 
 struct LottieView: UIViewRepresentable {
     
-    var fileName = "nil"
+    @State var fileName = "nil"
     var loopMode: LottieLoopMode = .loop
     var contentMode: UIView.ContentMode = .scaleAspectFit
     typealias UIViewType = UIView

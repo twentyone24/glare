@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum Mode: String {
+    case light
+    case dark
+}
